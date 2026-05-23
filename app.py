@@ -25,7 +25,7 @@ class Refeicao(BaseModel):
 
 # --- Configurações da Página Streamlit ---
 st.set_page_config(
-    page_title="NutriVision AI",
+    page_title="Analisador de refeições",
     page_icon="🥗",
     layout="wide"
 )
