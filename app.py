@@ -49,15 +49,16 @@ st.markdown("""
         box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         color: white;
     }
+
+    .icon {
+        color: unset !important;
+    }
     
     .header-container h1 {
         font-weight: 800;
         font-size: 2.8rem;
         margin: 0 0 0.5rem 0;
         color: #4CAF50;
-        background: linear-gradient(90deg, #81C784, #4CAF50);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
     
     .header-container p {
@@ -149,7 +150,7 @@ st.markdown("""
 # --- Header ---
 st.markdown("""
 <div class="header-container">
-    <h1>🥗 NutriVision AI</h1>
+    <h1><span class="icon">🥗</span> NutriVision AI</h1>
     <p>Envie a foto do seu prato e obtenha instantaneamente a análise nutricional completa.</p>
 </div>
 """, unsafe_allow_html=True)
